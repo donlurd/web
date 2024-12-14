@@ -41,7 +41,7 @@
         let modelo = null;
         (async () => {
             console.log("Cargando modelo...");
-            modelo = await tf.loadGraphModel("src/modelo/model.json");
+            modelo = await tf.loadGraphModel("modelo/model.json");
             console.log("Modelo cargado...");
         })();
 
